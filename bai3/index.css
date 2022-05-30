@@ -1,0 +1,56 @@
+div {
+  width: 1000px;
+  margin: 50 auto;
+}
+table {
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid #f4f4f4;
+  text-align: center;
+  height: 35px;
+}
+th:nth-child(6) {
+  width: 150px;
+}
+td:nth-child(7) {
+  width: 100px;
+}
+td:nth-child(8) {
+  width: 100px;
+}
+.btn-edit {
+  border: none;
+  border-radius: 8px;
+  background-color: #169721;
+  color: white;
+  padding: 5px 10px;
+}
+.btn-delete {
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(211, 27, 27);
+  color: white;
+  padding: 5px 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  background-color: #cccccc;
+}
+tr:nth-child(even) {
+  background-color: #efefef;
+}
+tr:nth-child(1) {
+  background-color: #288ba1;
+}
+tr:hover {
+  background-color: rgb(183 181 181);
+  cursor: pointer;
+}
+button:hover {
+  cursor: pointer;
+}
